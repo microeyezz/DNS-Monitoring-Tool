@@ -1,4 +1,6 @@
 #/usr/bin/python -tt
+
+#Use command pip install scapy to install scapy which is required to run this script.
 import socket
 from os import geteuid,path
 from scapy.all import *
